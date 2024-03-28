@@ -1,0 +1,78 @@
+.categoriasContainer {
+  background-color: white;
+  margin-top: 4rem;
+}
+.categoriasTitleContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+}
+.categoriasGridContainer {
+  display: flex;
+  align-items: center;
+}
+.categoriasGridContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.categoriasGridContent:hover #categorias-bg-content {
+  margin-bottom: 0;
+}
+/* .categoriasGridContent:hover {
+    width: 110%;
+    transition-delay: 4s;
+  } */
+.categoriasGridContent div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#categorias-bg-content {
+  background-color: #a80e00;
+  padding: 10px;
+  margin-bottom: -100px;
+  display: inline-block;
+  transition: 0.4s;
+}
+.categoriasGridContent h1 {
+  color: white;
+  text-transform: uppercase;
+  text-align: start;
+}
+.categoriasGridContent p {
+  color: white;
+  width: 100%;
+  text-align: start;
+}
+.categoriasGridContent img {
+  width: 150px;
+}
+#categorias-grid-content {
+  background-image: url("img/categorias-img-1.png");
+  background-size: cover;
+  height: 750px;
+}
+#categorias-grid-content-1 {
+  background-image: url("img/categorias-img-2.png");
+  background-size: cover;
+  height: 750px;
+}
+#categorias-grid-content-2 {
+  background-image: url("img/categorias-img-3.png");
+  background-size: cover;
+  height: 750px;
+}
+#categorias-grid-content-3 {
+  background-image: url("img/categorias-img-4.png");
+  background-size: cover;
+  height: 750px;
+}

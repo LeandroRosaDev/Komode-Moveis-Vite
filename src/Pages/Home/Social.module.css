@@ -1,0 +1,22 @@
+.socialContainer {
+  background-color: white;
+  margin-top: 2rem;
+}
+.socialTitleContainer {
+  padding: 1rem;
+}
+.socialGridContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(46, 45, 45);
+}
+.socialGridContainer img {
+  max-width: 250px;
+}
+.socialGridContainer img:hover {
+  transform: scale(110%);
+  transition: 0.4s;
+  border-radius: 4px;
+}

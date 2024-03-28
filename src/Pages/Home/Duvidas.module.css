@@ -1,0 +1,46 @@
+.duvidasContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 4rem;
+  gap: 2rem;
+}
+.duvidasTitleContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.duvidasGridContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.duvidasGridContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+.duvidasGridContent h2 {
+  text-align: center;
+  font-size: 1.4rem;
+  min-height: 50px;
+  margin-top: 10px;
+}
+.duvidasGridContent img {
+  max-width: 400px;
+}
+.duvidasContainer button {
+  background-color: #d31919;
+  border: none;
+  color: white;
+  padding: 20px;
+  margin-top: 2rem;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}

@@ -1,0 +1,32 @@
+.menuSocialContainer {
+  display: flex;
+  justify-content: end;
+  width: 60%;
+  gap: 1rem;
+  padding: 5px;
+  border-bottom: 1px solid #ffffff3f;
+}
+.menuSocialContainer img {
+  width: 25px;
+}
+.menuContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  padding: 10px;
+}
+.menuContainer img {
+  width: 150px;
+}
+.menuContent {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.menuContent li a {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  font-size: 0.9rem;
+}
