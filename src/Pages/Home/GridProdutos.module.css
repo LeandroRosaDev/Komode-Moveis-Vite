@@ -3,7 +3,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0 15rem;
   margin-top: 4rem;
 }
 .produtosTitleContainer {
@@ -19,11 +18,12 @@
   align-items: center;
   gap: 2rem;
   margin-top: 2rem;
+  max-width: 1000px;
 }
-.grid-Produtos-Content img {
+.gridProdutosContent img {
   max-width: 300px;
 }
-.grid-Produtos-Content h1 {
+.gridProdutosContent h1 {
   text-transform: uppercase;
   font-size: 1.4rem;
 }

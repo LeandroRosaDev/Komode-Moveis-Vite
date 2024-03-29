@@ -1,0 +1,52 @@
+.headerBg {
+  background-image: url("../../assets/sobre/pag-sobre-bg.jpg");
+  height: 500px;
+}
+.pagSobreContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 4rem auto;
+}
+.pagSobreGridContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10rem;
+  gap: 2rem;
+}
+.pagSobreGridContent {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  background-color: white;
+  overflow: hidden;
+  padding-right: 2rem;
+}
+.pagSobreGridContentText {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 500px;
+}
+.pagSobreGridContentText h1 {
+  font-size: 1.4rem;
+}
+.pagSobreGridContentText p {
+  font-size: 1.2rem;
+}
+.pagSobreGridContentImg {
+  display: flex;
+  align-items: center;
+}
+.sobreImg1 {
+  object-fit: cover;
+}
+.sobreImg2 {
+  display: inline-block;
+  width: 170px;
+  height: 170px;
+  margin-left: -85px;
+}

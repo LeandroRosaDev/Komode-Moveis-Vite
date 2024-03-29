@@ -19,7 +19,7 @@ body {
   margin-bottom: 2rem;
 }
 .header-container {
-  background-image: url("img/header-bg.png");
+  background-image: url("../../assets/header-bg.png");
   background-size: cover;
   height: 750px;
   display: flex;

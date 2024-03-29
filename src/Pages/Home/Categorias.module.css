@@ -23,7 +23,7 @@
   cursor: pointer;
   transition: all 0.4s;
 }
-.categoriasGridContent:hover #categorias-bg-content {
+.categoriasGridContent:hover #categoriasBgContent {
   margin-bottom: 0;
 }
 /* .categoriasGridContent:hover {
@@ -36,7 +36,7 @@
   align-items: center;
   justify-content: center;
 }
-#categorias-bg-content {
+#categoriasBgContent {
   background-color: #a80e00;
   padding: 10px;
   margin-bottom: -100px;
@@ -56,23 +56,23 @@
 .categoriasGridContent img {
   width: 150px;
 }
-#categorias-grid-content {
-  background-image: url("img/categorias-img-1.png");
+#categoriasGridContent {
+  background-image: url("../../assets/categorias-img-1.png");
   background-size: cover;
   height: 750px;
 }
-#categorias-grid-content-1 {
-  background-image: url("img/categorias-img-2.png");
+#categoriasGridContent1 {
+  background-image: url("../../assets/categorias-img-2.png");
   background-size: cover;
   height: 750px;
 }
-#categorias-grid-content-2 {
-  background-image: url("img/categorias-img-3.png");
+#categoriasGridContent2 {
+  background-image: url("../../assets/categorias-img-3.png");
   background-size: cover;
   height: 750px;
 }
-#categorias-grid-content-3 {
-  background-image: url("img/categorias-img-4.png");
+#categoriasGridContent3 {
+  background-image: url("../../assets/categorias-img-4.png");
   background-size: cover;
   height: 750px;
 }

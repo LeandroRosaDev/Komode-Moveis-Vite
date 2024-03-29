@@ -1,4 +1,8 @@
 import style from "./Categorias.module.css";
+import iconCategoria1 from "../../assets/categoria-icon-1.png";
+import iconCategoria2 from "../../assets/categoria-icon-2.png";
+import iconCategoria3 from "../../assets/categoria-icon-3.png";
+import iconCategoria4 from "../../assets/categoria-icon-4.png";
 
 const Categorias = () => {
   return (
@@ -13,16 +17,16 @@ const Categorias = () => {
       <div className={style.categoriasGridContainer}>
         <div
           className={style.categoriasGridContent}
-          id="categorias-grid-content"
+          id={style.categoriasGridContent}
         >
           <div></div>
           <div>
-            <img src="img/categoria-icon-1.png" alt="móveis" />
+            <img src={iconCategoria1} alt="móveis" />
             <a href="">
               <p>Escritório</p>
             </a>
           </div>
-          <div id="categorias-bg-content">
+          <div id={style.categoriasBgContent}>
             <h1>melhores e mais sofisticados móveis de escritório</h1>
             <p>
               Venha conferir os melhores móveis de escritório para a sua cas
@@ -31,18 +35,18 @@ const Categorias = () => {
         </div>
         <div
           className={style.categoriasGridContent}
-          id="categorias-grid-content-1"
+          id={style.categoriasGridContent1}
         >
           <div></div>
 
           <div>
-            <img src="img/categoria-icon-2.png" alt="móveis" />
+            <img src={iconCategoria2} alt="móveis" />
             <a href="">
               <p>Escritório</p>
             </a>
           </div>
 
-          <div id="categorias-bg-content">
+          <div id={style.categoriasBgContent}>
             <h1>melhores e mais sofisticados móveis de escritório</h1>
             <p>
               Venha conferir os melhores móveis de escritório para a sua cas
@@ -51,17 +55,17 @@ const Categorias = () => {
         </div>
         <div
           className={style.categoriasGridContent}
-          id="categorias-grid-content-2"
+          id={style.categoriasGridContent2}
         >
           <div></div>
 
           <div>
-            <img src="img/categoria-icon-3.png" alt="móveis" />
+            <img src={iconCategoria3} alt="móveis" />
             <a href="">
               <p>Escritório</p>
             </a>
           </div>
-          <div id="categorias-bg-content">
+          <div id={style.categoriasBgContent}>
             <h1>melhores e mais sofisticados móveis de escritório</h1>
             <p>
               Venha conferir os melhores móveis de escritório para a sua cas
@@ -70,18 +74,17 @@ const Categorias = () => {
         </div>
         <div
           className={style.categoriasGridContent}
-          id="categorias-grid-content-3"
+          id={style.categoriasGridContent3}
         >
           <div></div>
-
           <div>
-            <img src="img/categoria-icon-4.png" alt="móveis" />
+            <img src={iconCategoria4} alt="móveis" />
             <a href="">
               <p>Escritório</p>
             </a>
           </div>
 
-          <div id="categorias-bg-content">
+          <div id={style.categoriasBgContent}>
             <h1>melhores e mais sofisticados móveis de escritório</h1>
             <p>
               Venha conferir os melhores móveis de escritório para a sua cas

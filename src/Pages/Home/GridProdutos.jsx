@@ -1,4 +1,5 @@
 import styles from "./GridProdutos.module.css";
+import produto1 from "../../assets/produto-img-1.png";
 
 const GridProdutos = () => {
   return (
@@ -10,42 +11,42 @@ const GridProdutos = () => {
       <div className={styles.gridProdutosContainer}>
         <div className={styles.gridProdutosContent}>
           <a href="">
-            <img src="img/produto-img-1.png" alt="imagem do produto" />
+            <img src={produto1} alt="imagem do produto" />
           </a>
           <h1>Conjunto Porto</h1>
           <p>R$ 799,00</p>
         </div>
         <div className={styles.gridProdutosContent}>
           <a href="">
-            <img src="img/produto-img-1.png" alt="imagem do produto" />
+            <img src={produto1} />
           </a>
           <h1>Conjunto Porto</h1>
           <p>R$ 799,00</p>
         </div>
         <div className={styles.gridProdutosContent}>
           <a href="">
-            <img src="img/produto-img-1.png" alt="imagem do produto" />
+            <img src={produto1} />
           </a>
           <h1>Conjunto Porto</h1>
           <p>R$ 799,00</p>
         </div>
         <div className={styles.gridProdutosContent}>
           <a href="">
-            <img src="img/produto-img-1.png" alt="imagem do produto" />
+            <img src={produto1} />
           </a>
           <h1>Conjunto Porto</h1>
           <p>R$ 799,00</p>
         </div>
         <div className={styles.gridProdutosContent}>
           <a href="">
-            <img src="img/produto-img-1.png" alt="imagem do produto" />
+            <img src={produto1} />
           </a>
           <h1>Conjunto Porto</h1>
           <p>R$ 799,00</p>
         </div>
         <div className={styles.gridProdutosContent}>
           <a href="">
-            <img src="img/produto-img-1.png" alt="imagem do produto" />
+            <img src={produto1} />
           </a>
           <h1>Conjunto Porto</h1>
           <p>R$ 799,00</p>

@@ -1,0 +1,62 @@
+.headerBg {
+  background-image: url("../../assets/contato/bg-contato.png");
+  height: 500px;
+}
+.pagContatoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pagContatoIconsContainer {
+  width: 1000px;
+  background-color: white;
+  margin-top: -4rem;
+}
+.pagContatoIconsContent {
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+  height: 300px;
+  text-align: center;
+}
+.pagContatoIconsContent div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pagContatoIconsContent div h2 {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+.pagContatoIconsContent div img {
+  width: 70px;
+}
+.pagContatoMsgContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+  background-color: #3a3a3a;
+  color: white;
+  height: 400px;
+  margin-bottom: 4rem;
+  text-align: center;
+}
+.pagContatoMsgContent button {
+  background-color: #3a3a3a;
+  border: 1px solid white;
+  color: white;
+  padding: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.pagContatoMsgContent button:hover {
+  background-color: white;
+  color: black;
+}
